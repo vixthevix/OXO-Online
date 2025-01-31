@@ -25,11 +25,11 @@ from random import randint
 ##oripath = oripath[0:len(oripath) - pos]
 ##print(oripath)
     
-
+SERVER = input("Enter the IP Address of the server:")
 
 
 PORT = 5050
-SERVER = '' # current ip address, may change
+#SERVER = '10.206.136.156' # current ip address, may change
 #SERVER = socket.gethostbyname(socket.gethostname())
 HEADER = 256
 FORMAT = 'utf-8'
