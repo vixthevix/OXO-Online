@@ -1,0 +1,11 @@
+when using command prompt, use the cd OneDrive\Documents\Victor\project_personnel\OXO_online line
+
+in order to keep file access consistent within the folder.
+
+when running in general,
+DO NOT WRITE PYTHON3, it will use the latest version of python3 which I do not have. Instead write python.
+
+use pyinstaller and make sure it is written as "pyinstaller --onefile your_file.py"
+
+
+
