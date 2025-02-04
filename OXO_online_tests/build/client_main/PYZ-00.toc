@@ -1,5 +1,5 @@
 ('C:\\Users\\victo\\Documents\\Computer Science\\Python projects\\Python '
- 'network large\\OXO_online_tests\\build\\client_main\\PYZ-00.pyz',
+ 'network large\\OXO-Online\\OXO_online_tests\\build\\client_main\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\victo\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
    'PYMODULE'),
@@ -405,7 +405,7 @@
    'PYMODULE'),
   ('menuclass',
    'C:\\Users\\victo\\Documents\\Computer Science\\Python projects\\Python '
-   'network large\\OXO_online_tests\\menuclass.py',
+   'network large\\OXO-Online\\OXO_online_tests\\menuclass.py',
    'PYMODULE'),
   ('mimetypes',
    'C:\\Users\\victo\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',

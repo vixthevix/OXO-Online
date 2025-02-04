@@ -29,7 +29,7 @@ SERVER = input("Enter the IP Address of the server:")
 
 
 PORT = 5050
-#SERVER = '10.206.136.156' # current ip address, may change
+#SERVER = '' # current ip address, may change
 #SERVER = socket.gethostbyname(socket.gethostname())
 HEADER = 256
 FORMAT = 'utf-8'
@@ -464,7 +464,7 @@ def publicgame():
             if ready:
                 msg = client.recv(2048).decode(FORMAT)
                 print(msg[1:13])
-                if msg[1:13] == 'player found':
+                if msg[1:13] == 'player found' and msg[13:len(msg)] != username: #last check to make sure you dont play against yourself
                     opname = msg[13:len(msg)]
                     condition = str(msg[0])
                     print(condition)

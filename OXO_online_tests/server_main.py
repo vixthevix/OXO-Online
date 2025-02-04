@@ -7,7 +7,7 @@ from random import randint
 
 PORT = 5050
 SERVER = socket.gethostbyname(socket.gethostname())
-#SERVER = '192.168.56.1'
+#SERVER = ''
 print(SERVER)
 HEADER = 256
 FORMAT = 'utf-8'
